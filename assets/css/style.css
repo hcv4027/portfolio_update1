@@ -1,0 +1,106 @@
+
+*{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    
+}
+
+.myName{
+    float:left;
+    width:250px;
+    height: 54px;
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#aboutme h1{
+    text-align: left;
+    color: #4aaaa5;
+    border-bottom: #666666 solid 2px;
+}
+
+ul{
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+body{
+    background-image: url("../images/leaves.png");
+}
+
+#container{
+    width:960px;
+    margin: 0 auto;
+
+
+}
+
+#header{
+    border: 2px solid #cccccc;
+    background-color: white;
+    height: 100px;
+}
+
+#content{
+    background-color: rgb(150, 10, 10);
+}
+
+#aboutme{
+    border: 5px solid #dddddd;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     padding: 10px;
+    
+}
+
+#footer{
+    background-color: #666666;
+    width: 100%;
+    border: 3px solid #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+p img{
+    float:left;
+    padding-left: 20px;
+    width: 200px;
+    height: 200px;
+    padding-right: 16px;
+}
+#me{
+
+    float: left;
+}
+
+form{
+    text-align: left;
+}
+
+input[type=text], select{
+    width: 90%;
+    margin-left: 10px;
+}
+input[type=submit], select{
+    background-color: #4aaaa5;
+    color: white;
+}
+
+input[name=message], select{
+    width: 90%;
+    margin-left: 10px;
+    height: 75px;
+}
+
+#icon{
+    width: 144px;
+    height: 150px;
+    padding: 20px;
+}
